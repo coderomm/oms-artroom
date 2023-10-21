@@ -1,4 +1,4 @@
-﻿# LIC Web Design Project 🌐
+﻿# Oms Artroom Web Design Project 🌐
 
 ![Responsive Design](https://img.shields.io/badge/Responsive-Yes-4BC51D)
 ![HTML](https://img.shields.io/badge/HTML-5-E34F26)
@@ -7,7 +7,7 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-F7DF1E)
 ![jQuery](https://img.shields.io/badge/jQuery-3-0769AD)
 
-Welcome to the Oms Artroom web design project! This project was meticulously crafted by Coderom to provide a seamless user experience, utilizing HTML, CSS3, Bootstrap 5, JavaScript, and jQuery. It's fully responsive and ready to shine on all devices.It's built using <img src="https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_html.svg" alt="HTML5" width="20">, <img src="https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_css.svg" alt="CSS3" width="20">, <img src="https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_bootstrap.svg" alt="Bootstrap 5" width="20">, <img src="https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_js.svg" alt="JavaScript" width="20">, and <img src="https://raw.githubusercontent.com/vscode-icons/vscode-icons/master/icons/file_type_js_official.svg" alt="jQuery" width="20">, ensuring a fully responsive, user-friendly, and visually appealing experience. Explore the world of life insurance services and products with our modern and interactive website. 🚀
+Welcome to the Oms Artroom web design project! This project was meticulously crafted by Coderom to provide a seamless user experience, utilizing HTML, CSS3, Bootstrap 5, JavaScript, and jQuery. It's fully responsive and ready to shine on all devices. This ensuring a fully responsive, user-friendly, and visually appealing experience. Explore the world of life insurance services and products with our modern and interactive website. 🚀
 
 ## Project Overview 🚀
 

@@ -1,0 +1,648 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Home of Paintings By Om Sharma</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Owl-Carousel Slider CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alata&family=Alice&family=El+Messiri:wght@700&family=Philosopher:wght@700&family=Playfair+Display&family=Sriracha&family=Uchen&display=swap"
+        rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- about -->
+    <div class="about">
+        <a class="bg_links social portfolio" href="https://www.rafaelalucas.com/dailyui" target="">
+            <span class="icon"></span>
+        </a>
+        <a class="bg_links social dribbble" href="https://dribbble.com/rafaelalucas" target="">
+            <span class="icon"></span>
+        </a>
+        <a class="bg_links social linkedin" href="https://www.linkedin.com/in/rafaelalucas/" target="">
+            <span class="icon"></span>
+        </a>
+        <a class="bg_links logo"></a>
+    </div>
+
+    <!-- live chat box -->
+    <section class="formbold-main-wrapper">
+        <!-- Author: FormBold Team -->
+        <!-- Learn More: https://formbold.com -->
+        <div class="w-full">
+            <div class="formbold-form-wrapper">
+                <div class="formbold-form-header">
+                    <h3>Let's chat? - Online</h3>
+                    <button onclick="chatboxToogleHandler()">
+                        <svg width="17" height="17" viewBox="0 0 17 17" fill="white">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M0.474874 0.474874C1.10804 -0.158291 2.1346 -0.158291 2.76777 0.474874L16.5251 14.2322C17.1583 14.8654 17.1583 15.892 16.5251 16.5251C15.892 17.1583 14.8654 17.1583 14.2322 16.5251L0.474874 2.76777C-0.158291 2.1346 -0.158291 1.10804 0.474874 0.474874Z" />
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M0.474874 16.5251C-0.158291 15.892 -0.158291 14.8654 0.474874 14.2322L14.2322 0.474874C14.8654 -0.158292 15.892 -0.158291 16.5251 0.474874C17.1583 1.10804 17.1583 2.1346 16.5251 2.76777L2.76777 16.5251C2.1346 17.1583 1.10804 17.1583 0.474874 16.5251Z" />
+                        </svg>
+                    </button>
+                </div>
+                <form action="https://formbold.com/s/FORM_ID" method="POST" class="formbold-chatbox-form">
+                    <div class="formbold-mb-5">
+                        <label for="name" class="formbold-form-label"> Your Name </label>
+                        <input type="text" name="name" id="name" placeholder="Your Name" class="formbold-form-input" />
+                    </div>
+
+                    <div class="formbold-mb-5">
+                        <label for="email" class="formbold-form-label"> Email Address </label>
+                        <input type="email" name="email" id="email" placeholder="example@domain.com"
+                            class="formbold-form-input" />
+                    </div>
+
+                    <div class="formbold-mb-5">
+                        <label for="message" class="formbold-form-label"> Message </label>
+                        <textarea rows="6" name="message" id="message" placeholder="Explain you queries"
+                            class="formbold-form-input"></textarea>
+                    </div>
+
+                    <div>
+                        <button class="formbold-btn w-full">Submit</button>
+                    </div>
+                </form>
+            </div>
+            <div class="formbold-action-buttons">
+                <button class="formbold-action-btn" onclick="chatboxToogleHandler()">
+                    <span class="formbold-cross-icon">
+                        <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M0.474874 0.474874C1.10804 -0.158291 2.1346 -0.158291 2.76777 0.474874L16.5251 14.2322C17.1583 14.8654 17.1583 15.892 16.5251 16.5251C15.892 17.1583 14.8654 17.1583 14.2322 16.5251L0.474874 2.76777C-0.158291 2.1346 -0.158291 1.10804 0.474874 0.474874Z"
+                                fill="white" />
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M0.474874 16.5251C-0.158291 15.892 -0.158291 14.8654 0.474874 14.2322L14.2322 0.474874C14.8654 -0.158292 15.892 -0.158291 16.5251 0.474874C17.1583 1.10804 17.1583 2.1346 16.5251 2.76777L2.76777 16.5251C2.1346 17.1583 1.10804 17.1583 0.474874 16.5251Z"
+                                fill="white" />
+                        </svg>
+                    </span>
+                    <span class="formbold-chat-icon">
+                        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M19.8333 14.0002V3.50016C19.8333 3.19074 19.7103 2.894 19.4915 2.6752C19.2728 2.45641 18.976 2.3335 18.6666 2.3335H3.49992C3.1905 2.3335 2.89375 2.45641 2.67496 2.6752C2.45617 2.894 2.33325 3.19074 2.33325 3.50016V19.8335L6.99992 15.1668H18.6666C18.976 15.1668 19.2728 15.0439 19.4915 14.8251C19.7103 14.6063 19.8333 14.3096 19.8333 14.0002ZM24.4999 7.00016H22.1666V17.5002H6.99992V19.8335C6.99992 20.1429 7.12284 20.4397 7.34163 20.6585C7.56042 20.8772 7.85717 21.0002 8.16659 21.0002H20.9999L25.6666 25.6668V8.16683C25.6666 7.85741 25.5437 7.56066 25.3249 7.34187C25.1061 7.12308 24.8093 7.00016 24.4999 7.00016Z"
+                                fill="white" />
+                        </svg>
+                    </span>
+                </button>
+            </div>
+        </div>
+    </section>
+    <!-- end about -->
+    <!-- header -->
+    <section id="contactHead" class="contactHead">
+        <nav>
+            <section class="slicedWrapper main-title">
+                <h2 class="top">OMS ARTROOM</h2>
+                <h2 class="bottom" aria-hidden="true">OMS ARTROOM</h2>
+            </section>
+            <i class="icon-menu">
+                <span></span>
+            </i>
+
+            <div class="main-nav">
+                <div class="menu">
+                    <div class="menu-items">
+                        <a href="index.html" class="item active" target="">Home</a>
+                        <a href="AllArtworks.html" class="item" target="">All Artworks</a>
+                        <a href="paintings.html" class="item" target="">Paintings</a>
+                        <a href="" class="item" target="">Drawings</a>
+                        <a href="" class="item" target="">Portraits</a>
+                        <a href="artists.html" class="item" target="">Artists</a>
+                        <a href="BulkCorporateOrders.html" class="item" target="">Bulk Orders</a>
+                        <a href="sellpaintings.html" class="item" target="">Sell Paintings</a>
+                    </div>
+                </div>
+            </div>
+
+        </nav>
+        <header id="allArtworks-header">
+            <div class="main-heading">
+                <nav class="desktop-nav desk-nav">
+                    <ul class="">
+                        <li class="nav-item nav-item-active">
+                            <a class="desk-nav-a hover-underline-animation" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="desk-nav-a mob-nav-a hover-underline-animation" href="AllArtworks.html">All
+                                Artworks</a>
+                            <div class="dropdown-content dropdown-content2">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-lg-3 col-12">
+                                            <div class="sub-dd">
+                                                <h4 class="sub-dd-title">Indian Paintings</h4>
+                                                <a href="#">Rural,Village</a>
+                                                <a href="#">Rajasthani Paintings</a>
+                                                <a href="#">Traditional,Ethnic,Folk</a>
+                                                <a href="#">Tribal & Folks</a>
+                                                <a href="#">Temples,Forts</a>
+                                                <a href="#">Mountaines</a>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-12">
+                                            <div class="sub-dd">
+                                                <h4 class="sub-dd-title">Religious & God</h4>
+                                                <a href="#">Buddha Paintings</a>
+                                                <a href="#">Shiva, Mahadev, Parvati Paintings</a>
+                                                <a href="#">Krishna, Radha Krishna Paintings</a>
+                                                <a href="#">Ganesha, Ganapati Paintings</a>
+                                                <a href="#">Jesus Christ, Last Supper</a>
+                                                <a href="#">Mother Mary Paintings</a>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-12">
+                                            <div class="sub-dd">
+                                                <h4 class="sub-dd-title">Figurative, People, Human Paintings</h4>
+                                                <a href="#">Couple, Romantic, Love Paintings</a>
+                                                <a href="#">Women, Lady, Feminine Paintings</a>
+                                                <a href="#">Fashion, Glamour Paintings</a>
+                                                <a href="#">Tribal, African Paintings</a>
+                                                <a href="#">Mother & Baby, Baby Paintings</a>
+                                                <a href="#">Anatomy Paintings</a>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-12">
+                                            <div class="sub-dd">
+                                                <h4 class="sub-dd-title">Abstract Paintings</h4>
+                                                <a href="#">Geometric Absract Paintings</a>
+                                                <a href="#">Pure Absract Paintings</a>
+                                                <a href="#">Nature, Forest, SceneryPaintings</a>
+                                                <a href="#">Ship, Sea, Beach Paintings</a>
+                                                <a href="#">City Paintings</a>
+                                                <a href="#">Tree, Botanical Paintings</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="desk-nav-a hover-underline-animation" href="paintings.html">Paintings</a>
+                            <div class="dropdown-content dropdown-content3">
+                                <div class="container">
+                                    <div class="col-lg-12 col-12">
+                                        <div class="sub-dd">
+                                            <h4 class="sub-dd-title">Religious & God</h4>
+                                            <a href="#">Buddha Paintings</a>
+                                            <a href="#">Shiva, Mahadev, Parvati Paintings</a>
+                                            <a href="#">Krishna, Radha Krishna Paintings</a>
+                                            <a href="#">Ganesha, Ganapati Paintings</a>
+                                            <a href="#">Jesus Christ, Last Supper</a>
+                                            <a href="#">Mother Mary Paintings</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="desk-nav-a hover-underline-animation" href="#">Drawings</a>
+                            <div class="dropdown-content dropdown-content3">
+                                <div class="container">
+                                    <div class="col-lg-12 col-12">
+                                        <div class="sub-dd">
+                                            <h4 class="sub-dd-title">Drawings and Types</h4>
+                                            <a href="">Abstract Drawings</a>
+                                            <a href="">Abstract Expressionism Drawings</a>
+                                            <a href="">Art Deco Drawings</a>
+                                            <a href="">Buddha Drawings</a>
+                                            <a href="">Documentary Drawings</a>
+                                            <a href="">Expressionism Drawings</a>
+                                            <a href="">Figurative Drawings</a>
+                                            <a href="">Fine Art Drawings</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="desk-nav-a hover-underline-animation" href="#">Portraits</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="desk-nav-a hover-underline-animation" href="artists.html">Artists</a>
+                            <div class="dropdown-content dropdown-content3">
+                                <div class="col-lg-12 col-12">
+                                    <h4 class="sub-dd-title">Featured Artists</h4>
+                                    <a href="">COMMUNITY ARTISTS GROUP</a>
+                                    <a href="">VEKKAS M</a>
+                                    <a href="">PALLAVI JAIN</a>
+                                    <a href="">RAM ACHAL</a>
+                                    <a href="">ARTOHOLIC</a>
+                                    <a href="">VIMANIKA ARTS</a>
+                                    <a href="">SHUBHASHIS MANDAL</a>
+                                    <a href="">UTTAM BHATTACHARYA</a>
+                                    <a href="">RAJA M</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="desk-nav-a desk-nav-a-active hover-underline-animation hover-underline-animation-active"
+                                href="BulkCorporateOrders.html">Bulk Orders</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="desk-nav-a hover-underline-animation" href="sellpaintings.html">Sell Paintings</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="slide-container d-none">
+                    <!-- Additional required wrapper -->
+                    <div class="slide-wrapper">
+                        <!-- Slides -->
+                        <div class="slide active">
+                            <img src="imgs/bb1.jpg" alt="" data-id="">
+                            <div class="sliderCaption d-none d-md-none d-lg-block">
+                                <span class="sliderCaption-date">20/06 - 25/06</span>
+                                <p class="sliderCaption-text">Painting Created On This Date. To Purchase This Art Click
+                                    Below.</p>
+                                <a href="" class="sliderCaption-btn">Purchase Painting <span
+                                        class="sliderBtnArrow">-></span></a>
+                            </div>
+                        </div>
+
+                        <div class="slide next">
+                            <img src="imgs/bb2.jpg" alt="" data-id="">
+                        </div>
+
+                    </div>
+                    <div class="slide-arrows">
+                        <!-- If we need navigation buttons -->
+
+                        <div class="button-prev"></div>
+
+                        <div class="button-next"></div>
+                    </div>
+                    <div class="slide-bullets">
+                        <span class="bullet selected" data-id="0"></span>
+                        <span class="bullet" data-id="1"></span>
+                        <span class="bullet" data-id="2"></span>
+                        <span class="bullet" data-id="3"></span>
+                    </div>
+
+                </div>
+            </div>
+        </header>
+    </section>
+
+    <!-- Corporate BulkOrder Table -->
+    <section id="bulkOrder" class="bulkOrder">
+        <div class="container">
+            <div class="row">
+                <main class="page ml-0">
+                    <div class="heading page-heading text-center py-4 text-black">
+                        <h3 class="display-10 text-black">Bulk / Corporate Orders</h3>
+                    </div>
+                    <div class="page-content page-content--centered">
+                        <p class="lead">
+                            <span style="font-size:20px">We have catered to hundreds of corporate buyers, resellers and
+                                individuals looking for bulk art purchases. We have special discount slabs based on the
+                                amount of the order. Please find the same as below.</span>
+                        </p>
+                        <div id="bulkOrderTable" class="bulkOrderTable">
+                            <div class="mainTable">
+                                <div class="mainTable-column-container">
+                                    <div class="mainTable-column text-center">Order Total</div>
+                                    <div class="mainTable-column text-center">Discount</div>
+                                </div>
+
+                                <div class="mainTable-row-container">
+                                    <div class="mainTable-row">
+                                        <div id="mainTable-row-inner" class="shg-c text-center">
+                                            <div class="mainTable-heading-component">
+                                                <h1>Rs. 1.5 Lacs - 3 Lacs &nbsp; | &nbsp; USD $2300 - $4600</h1>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mainTable-row">
+                                        <div id="mainTable-row-inner" class="shg-c text-center">
+                                            <div class="mainTable-heading-component">
+                                                <h1>10 %</h1>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="mainTable-row-container">
+                                    <div class="mainTable-row">
+                                        <div id="mainTable-row-inner" class="shg-c text-center">
+                                            <div class="mainTable-heading-component">
+                                                <h1>Rs. 5 Lacs - 7.5 Lacs &nbsp; | &nbsp; USD $7651 - $11500</h1>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mainTable-row">
+                                        <div id="mainTable-row-inner" class="shg-c text-center">
+                                            <div class="mainTable-heading-component">
+                                                <h1>14 %</h1>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="mainTable-row-container">
+                                    <div class="mainTable-row">
+                                        <div id="mainTable-row-inner" class="shg-c text-center">
+                                            <div class="mainTable-heading-component">
+                                                <h1>Rs. 7.5 Lacs - 10 Lacs &nbsp; | &nbsp; USD $11501 - $15300</h1>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mainTable-row">
+                                        <div id="mainTable-row-inner" class="shg-c text-center">
+                                            <div class="mainTable-heading-component">
+                                                <h1>16 %</h1>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="mainTable-row-container">
+                                    <div class="mainTable-row">
+                                        <div id="mainTable-row-inner" class="shg-c text-center">
+                                            <div class="mainTable-heading-component">
+                                                <h1>Rs. 10 Lacs - 15 Lacs &nbsp; | &nbsp; USD $15301 - $22980</h1>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mainTable-row">
+                                        <div id="mainTable-row-inner" class="shg-c text-center">
+                                            <div class="mainTable-heading-component">
+                                                <h1>18.5 %</h1>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="mainTable-row-container">
+                                    <div class="mainTable-row">
+                                        <div id="mainTable-row-inner" class="shg-c text-center">
+                                            <div class="mainTable-heading-component">
+                                                <h1>Rs. 15 Lacs - 30 Lacs &nbsp; | &nbsp; USD $22981 - $45960</h1>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mainTable-row">
+                                        <div id="mainTable-row-inner" class="shg-c text-center">
+                                            <div class="mainTable-heading-component">
+                                                <h1>22 %</h1>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="mainTable-row-container">
+                                    <div class="mainTable-row">
+                                        <div id="mainTable-row-inner" class="shg-c text-center">
+                                            <div class="mainTable-heading-component">
+                                                <h1>Rs. 30 Lacs onwards &nbsp; | &nbsp; USD $45960 onwards</h1>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mainTable-row">
+                                        <div id="mainTable-row-inner" class="shg-c text-center">
+                                            <div class="mainTable-heading-component">
+                                                <h1>Please contact us</h1>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Us -->
+    <section id="whyUs" class="whyUs pb-5">
+        <div class="container-fluid">
+            <div class="heading page-heading text-center py-5">
+                <h3 class="display-10 text-black">WHY CHOOSE US ?</h3>
+            </div>
+            <div class="row">
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 col-12 my-1">
+                    <div class="whyUsBox whyUsBox1 d-flex flex-center">
+                        <div class="whyUsBoxTxt text-center">
+                            <h2>GST Invoices</h2>
+                            <h3 class="text-justify">Indian corporates can take benefit of ITC and save additional 12%
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 col-12 my-1">
+                    <div class="whyUsBox whyUsBox2 d-flex flex-center">
+                        <div class="whyUsBoxTxt text-center">
+                            <h2>Quick Delivery</h2>
+                            <h3 class="text-justify">Our network of 10000+ artists ensures your bulk order is taken care
+                                of in time</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 col-12 my-1">
+                    <div class="whyUsBox whyUsBox3 d-flex flex-center">
+                        <div class="whyUsBoxTxt text-center">
+                            <h2>Lowest Prices</h2>
+                            <h3 class="text-justify">Our already affordable rates topped with bulk discounts ensure you
+                                get lowest rates in the market</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 col-12 my-1">
+                    <div class="whyUsBox whyUsBox4 d-flex flex-center">
+                        <div class="whyUsBoxTxt text-center">
+                            <h2>Customizations</h2>
+                            <h3 class="text-justify">Whatever size, color or theme you chose for your office or home -
+                                our staff will help
+                                you
+                                get the right artworks in quick time</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ready -->
+    <section id="ready" class="ready newsltr py-5">
+        <div class="container">
+            <div class="readyInner py-3">
+                <div class="readyTitle text-center mb-4">
+                    <h1>Ready ?</h1>
+                </div>
+                <div class="readySubtitle text-center py-4">
+                    <h3>Email us your requirement at sales@fizdi.com and consider it sorted.</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer py-0" id="footer">
+        <div class="footer-bg py-5 px-2">
+            <div class="footer-up">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-2 col-sm-4 col-12">
+                            <div class="for-art">
+                                <h6 class="">For Artists</h6>
+                                <ul>
+                                    <li> <a class="" href="sellpaintings.html">Advertisment</a>
+                                    </li>
+                                    <li> <a class="" href="sellpaintings.html">Artist Registration</a>
+                                    </li>
+                                    <li> <a class="" href="sellpaintings.html">Sell your Art</a>
+                                    </li>
+                                    <li> <a class="" href="sellpaintings.html">Become a Verified Artist</a>
+                                    </li>
+                                    <li> <a class="" href="sellpaintings.html">Tips for Artist</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-sm-4 col-6">
+                            <div class="for-art">
+                                <h6>Top Selling Artists</h6>
+                                <ul>
+                                    <li> <a class="" href="artists.html">Om Sharma</a>
+                                    </li>
+                                    <li> <a class="" href="artists.html">Arjun Das</a>
+                                    </li>
+                                    <li> <a class="" href="artists.html">Geeta Kwatra</a>
+                                    </li>
+                                    <li> <a class="" href="artists.html">Vigo Cart</a>
+                                    </li>
+                                    <li> <a class="" href="artists.html">Vikash S</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-sm-4 col-6">
+                            <div class="for-art">
+                                <h6>Categories</h6>
+                                <ul>
+                                    <li> <a class="" href="index.html">Home</a>
+                                    </li>
+                                    <li> <a class="" href="AllArtworks.html">All Arts</a>
+                                    </li>
+                                    <li> <a class="" href="paintings.html">Paintings</a>
+                                    </li>
+                                    <li> <a class="" href="paintings.html">Canvas</a>
+                                    </li>
+                                    <li> <a class="" href="AllArtworks.html">Prints</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-sm-12 col-12">
+                            <div class="for-art about-us">
+                                <h6 class=" text-center">About Us</h6>
+                                <p><span id="brand">OMS ARTROOM </span>is a leading Online Art Gallery based in India &
+                                    open to the world for connecting art and art admirers. You can browse and buy
+                                    artworks and paintings online in few defined steps. OMSARTROOM.in
+                                    is a platform for promoting quality artwork created by artists worldwide.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="divider">
+            <div class="payments">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-5 col-md-5 col-12 col-sm-7 d-flex mb-3">
+                            <h6 class="text-center">We Acceppts</h6>
+                            <ul class="">
+                                <li>
+                                    <a href=""><img class="text-center img-fluid" src="imgs/p1.png" alt=""></a>
+                                </li>
+                                <li>
+                                    <a href=""><img class="text-center img-fluid" src="imgs/p2.png" alt=""></a>
+                                </li>
+                                <li>
+                                    <a href=""><img class="text-center img-fluid" src="imgs/p3.png" alt=""></a>
+                                </li>
+                                <li>
+                                    <a href=""><img class="text-center img-fluid" src="imgs/p4.png" alt=""></a>
+                                </li>
+                                <li>
+                                    <a href=""><img class="text-center img-fluid" src="imgs/p5.png" alt=""></a>
+                                </li>
+                                <li>
+                                    <a href=""><img class="text-center img-fluid" src="imgs/p6.png" alt=""></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-12 col-sm-5 d-flex mb-5">
+                            <h6 class="text-center">Download App</h6>
+                            <img src="imgs/app-store-png-logo-33115.png" alt="" class="img-fluid ftr-plystr-img">
+                        </div>
+                        <div class="col-lg-5 col-md-5 col-12 col-sm-12 d-flex mb-4">
+                            <h6 class="text-center">Like what you see? You'll like us even more here</h6>
+                            <ul class="footer-social-icons-ulbar text-center align">
+                                <li>
+                                    <a href=""><img class="ftr-i1 text-center img-fluid" src="imgs/facebook-logo.png"
+                                            alt=""></a>
+                                </li>
+                                <li>
+                                    <a href=""><img class="ftr-i2 text-center img-fluid" src="imgs/twitter-logo.png"
+                                            alt=""></a>
+                                </li>
+                                <li>
+                                    <a href=""><img class="ftr-i3 text-center img-fluid" src="imgs/youtube-logo.png"
+                                            alt=""></a>
+                                </li>
+                                <li>
+                                    <a href=""><img class="ftr-i4 text-center img-fluid" src="imgs/linkedin-logo.png"
+                                            alt=""></a>
+                                </li>
+                                <li>
+                                    <a href=""><img class="ftr-i5 text-center img-fluid" src="imgs/pinterest-logo.png"
+                                            alt=""></a>
+                                </li>
+                                <li>
+                                    <a href=""><img class="ftr-i6 text-center img-fluid" src="imgs/instagram-logo.webp"
+                                            alt=""></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <!-- Toggle Js Deskbar Navbar -->
+    <script src="./script.js"></script>
+
+</body>
+
+</html>

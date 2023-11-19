@@ -1,4 +1,4 @@
-﻿# Oms Artroom Web Design Project 🌐
+﻿# Oms Artroom Website Template 🌐
 
 ![Responsive Design](https://img.shields.io/badge/Responsive-Yes-4BC51D)
 ![HTML](https://img.shields.io/badge/HTML-5-E34F26)
